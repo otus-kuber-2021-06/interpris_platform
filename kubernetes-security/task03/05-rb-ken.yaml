@@ -2,7 +2,7 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: ken
+  name: ken-view
   namespace: dev
 subjects:
 - kind: ServiceAccount
